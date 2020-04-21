@@ -94,7 +94,7 @@ If you are using a different installation of OpenMCT, first, include the plugin.
     </script>
 </body>
 ```
-Run `npm install` then include the server-side telemachus proxy in your app.js.
+Run `npm install` then include the server-side telemetry query rest endpoints in your app.js.
 ```diff
 const app = express();
 ...
