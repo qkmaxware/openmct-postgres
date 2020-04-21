@@ -98,7 +98,7 @@ Run `npm install` then include the server-side telemetry query rest endpoints in
 ```diff
 const app = express();
 ...
-+const postgres_telemetry = require("plugins/openmct-postgres/plugin.sever");
++const postgres_telemetry = require("plugins/openmct-postgres/plugin.server");
 +postgres_telemetry(app);
 ...
 app.listen(port, function () {
