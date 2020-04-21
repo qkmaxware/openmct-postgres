@@ -1,0 +1,14 @@
+{
+  "name": "openmct-postgres",
+  "version": "1.0.0",
+  "description": "OpenMCT driver for telemetry stored in a postgres database",
+  "keywords": [
+    "openmct",
+    "postgres"
+  ],
+  "author": "Colin Halseth",
+  "license": "MIT",
+  "dependencies": {
+    "pg-promise": "^10.5.0"
+  }
+}
