@@ -58,7 +58,7 @@ CREATE TRIGGER trigger_openmct_telemetry_change_notification AFTER INSERT
 ```
 
 ## Installation
-If you are using my [OpenMCT Template](https://github.com/qkmaxware/openmct-template.git) simply clone this repo into `./plugins/openmct-postgres` and add the following config to the server's package.json.
+If you are using my [OpenMCT Template](https://github.com/qkmaxware/openmct-template.git) simply clone this repo into `./plugins/openmct-postgres` and run `npm install`. Then add the following config to the server's package.json.
 ```diff
   "plugins": {
 +    "postgres": {
@@ -94,7 +94,7 @@ If you are using a different installation of OpenMCT, first, include the plugin.
     </script>
 </body>
 ```
-Then include the server-side telemachus proxy in your app.js.
+Run `npm install` then include the server-side telemachus proxy in your app.js.
 ```diff
 const app = express();
 ...
