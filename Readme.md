@@ -22,6 +22,7 @@ Optionally, the following two variables can be used to point the postgres connec
 | OPENMCT_POSTGRES_PORT       |   port on the postgres server | 5432 |
 
 If the database connection is successful, the following icon will be green at the top of the OpenMCT webpage indicating that a successful connection has been made. If the icon is not green there is most likely some connection configuration that invalid or firewall rules blocking the connection. This connection indicator will be frequently updated to visually indicate at any time if the database becomes unavailable. 
+
 ![](images/connected.png)
 
 ### Creating Telemetry
