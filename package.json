@@ -9,6 +9,6 @@
   "author": "Colin Halseth",
   "license": "MIT",
   "dependencies": {
-    "pg-promise": "^10.5.0"
+    "pg-promise": "^10.15.4"
   }
 }
